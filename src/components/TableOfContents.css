@@ -1,0 +1,68 @@
+.toc-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.toc-panel {
+  width: 320px;
+  max-width: 85vw;
+  height: 100%;
+  background: #faf6f0;
+  box-shadow: 2px 0 12px rgba(0, 0, 0, 0.15);
+  overflow-y: auto;
+  padding: 1.5rem;
+}
+
+.toc-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.toc-header h2 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.toc-close {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0.25rem;
+  line-height: 1;
+  color: #3a3226;
+}
+
+.toc-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.toc-item {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  padding: 0.6rem 0.75rem;
+  font-size: 0.95rem;
+  cursor: pointer;
+  border-radius: 4px;
+  color: #3a3226;
+}
+
+.toc-item:hover {
+  background: #ede6db;
+}
+
+.toc-item--active {
+  background: #e2d9cc;
+  font-weight: 600;
+}
