@@ -1,0 +1,30 @@
+.introduction-page {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.introduction-page h1 {
+  font-size: 2.4rem;
+  margin: 0 0 0.25rem;
+}
+
+.introduction-page .subtitle {
+  font-size: 1.1rem;
+  opacity: 0.5;
+  margin: 0 0 2rem;
+}
+
+.introduction-page section {
+  margin-bottom: 2rem;
+}
+
+.introduction-page h2 {
+  font-size: 1.4rem;
+  margin: 0 0 0.75rem;
+}
+
+.introduction-page p {
+  line-height: 1.7;
+  margin: 0 0 1rem;
+}
