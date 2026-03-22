@@ -1,0 +1,33 @@
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  border-top: 1px solid #e0d8cf;
+  background: #faf6f0;
+}
+
+.nav-btn {
+  background: none;
+  border: 1px solid #c4b9a8;
+  padding: 0.5rem 1.25rem;
+  font-size: 0.95rem;
+  cursor: pointer;
+  border-radius: 4px;
+  color: #3a3226;
+  transition: background 0.15s;
+}
+
+.nav-btn:hover:not(:disabled) {
+  background: #ede6db;
+}
+
+.nav-btn:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+.nav-position {
+  font-size: 0.85rem;
+  opacity: 0.5;
+}
