@@ -1,12 +1,12 @@
 import { useState } from 'react'
 import Navigation from './components/Navigation'
 import TableOfContents from './components/TableOfContents'
-import QuotePage from './pages/QuotePage'
+import Epigraph from './pages/Epigraph'
 import IntroductionPage from './pages/IntroductionPage'
 import './App.css'
 
 const pages = [
-  { title: 'Epigraph', component: QuotePage },
+  { title: 'Epigraph', component: Epigraph },
   { title: 'Introduction', component: IntroductionPage },
 ]
 
